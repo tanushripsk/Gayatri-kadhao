@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ParticlesBackground from "./components/ParticlesBackground";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-// import HeroSection from './component/HeroSection';
+import HeroSection from './components/HeroSection';
 
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
         <Navbar />
         <main className="relative z-0">
           <Routes>
-            {/* <Route path="/" element={<HeroSection />} /> */}
+            <Route path="/" element={<HeroSection />} />
            
           </Routes>
           <Footer />
